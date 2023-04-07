@@ -31,6 +31,7 @@ public class DBManager {
 		Connection conn = null;
 		
 		try {
+			
 			conn = contextBind().getConnection();
 		} catch (SQLException e1) {
 			System.out.println("fail to DBconnection");
